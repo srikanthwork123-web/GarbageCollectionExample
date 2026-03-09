@@ -19,7 +19,9 @@ namespace GarbageCollectionExample
             Class1 c3 = new Class1();
             c1 = null;
             c2 = null;
-            
+//THIS IS ASLO ONE OF THE PROCESS DELETE ALL THE OBJECTS.
+//BY USING PROGRAMATICALLY IF YOU WANT TO DELETE ALL THE OBJECTS WE CAN GO FOR THIS ONE.
+//
             //delete all the objects
             GC.Collect();//Gc is a predefined class.
             
